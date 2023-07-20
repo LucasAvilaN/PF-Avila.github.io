@@ -1,0 +1,151 @@
+/* Media Queries */
+@media (max-width: 578px){
+    .container-card{
+        grid-template-columns: 100%;
+        grid-gap: 10px;
+    }
+}
+
+@media (max-width: 576px) {
+    .fondo{
+        background-image: url(../img/fondo2.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+    header{
+        background: $color-principal-mobile;
+        width: 100%;  
+        font-family: 'Heebo', sans-serif;
+    }
+    footer{
+        background: $color-principal-mobile;
+    }
+    .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .conteiner-header ul {
+        margin-top: 10px;
+    }
+
+    .conteiner-footer ul {
+        justify-content: center;
+    }
+}
+
+@media (max-width: 576px) {
+    .conteiner-header header .logo a {
+        font-size: 28px;
+    }
+
+    .conteiner-header ul li a {
+        font-size: 16px;
+    }
+
+    main h1 {
+        font-size: 36px;
+    }
+
+    main p {
+        font-size: 30px;
+    }
+
+    .sobremi h1 {
+        font-size: 36px;
+    }
+
+    .sobremi .contenido-seccion p {
+        font-size: 18px;
+        line-height: 20px;
+    }
+
+    .sobremi .fila .col h3 {
+        font-size: 24px;
+    }
+
+    .sobremi .fila .col .contenido-datos .lista-datos strong {
+        width: 100px;
+    }
+    .sobremi .fila .col .contenedor-intereses{
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .sobremi .fila .col .contenedor-intereses .interes {
+        width: 80px;
+        height: 80px;
+        font-size: 15px;
+    }
+
+    section{
+        h1 {
+            font-size: 30px;
+        }
+    }
+
+    .contenedor-habilidades {
+        width: 120px;
+        height: 120px;
+        padding-top: 45px;
+    }
+
+    .contenedor-habilidades i {
+        font-size: 28px;
+    }
+
+    .container-card {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .title-cards {
+        font-size: 24px;
+    }
+    .carta{
+        background-color: $color-principal-mobile;
+    }
+    .card {
+        width: 90%;
+        margin: 10px;
+    }
+
+    .card .contenido-card h3 {
+        font-size: 20px;
+    }
+
+    .card .contenido-card p {
+        font-size: 12px;
+    }
+
+    .card .contenido-card a {
+        font-size: 12px;
+    }
+    /*form*/
+    .form-register {
+        width: 90%;
+        background-color: $color-principal-mobile;
+    }
+    .controls{
+        background: rgb(85, 28, 5);
+        border: 1px solid #ff3300;
+    }
+    .mnsj-final{
+        width: 350px;
+        font-size: 20px;
+        color: $blanco;
+        background: map-get($backgroundStyles, secundario);
+        padding: 15px;
+        margin: auto;
+        margin-top: 50px;
+        margin-bottom: 50px;
+        border-radius: 4px;
+    }
+    
+    /*skill*/
+    .skill{
+        background-color: $color-principal-mobile;
+    }
+    .bar span{
+        background: linear-gradient(135deg, rgb(236, 79, 6)0%,rgb(250, 120, 34))100%;
+    }
+}

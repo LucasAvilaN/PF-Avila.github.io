@@ -1,0 +1,13 @@
+$color-principal: color-base;
+$color-principal-mobile:rgb(197, 60, 25);
+$blanco: rgb(255, 255, 255);
+$full-width: 100%;
+
+@if $color-principal == color-base{
+    header{
+        background-color: rgb(5, 131, 131);
+    }
+    footer{
+        background-color: rgb(5, 131, 131);
+    }
+}

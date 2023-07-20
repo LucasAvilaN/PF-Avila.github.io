@@ -1,0 +1,23 @@
+@import 'variables';
+@import 'componentes/header';
+@import 'componentes/footer';
+@import 'componentes/body';
+@import 'vista/index';
+@import 'vista/sobremi';
+@import 'vista/habilidades';
+@import 'vista/destacados';
+@import 'vista/contacto';
+@import 'queries/queries';
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Heebo&family=Oswald&family=Work+Sans:wght@300;400&display=swap');
+/*font-family: 'Heebo', sans-serif;
+font-family: 'Oswald', sans-serif;
+font-family: 'Work Sans', sans-serif;*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}

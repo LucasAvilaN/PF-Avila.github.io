@@ -1,0 +1,46 @@
+/* Header */
+header{
+    width: 100%;  
+    font-family: 'Heebo', sans-serif;
+    .logo a{
+        font-size: 36px;
+        color: $blanco;
+        text-decoration: none;
+    }
+    ul{
+        display: flex;
+        list-style: none;
+        font-size: 18px;
+        li a{
+            text-align: none;
+            color:$blanco;
+            margin: 0 15px;
+            padding: 3px;
+            text-decoration: none;
+        }
+    }
+}
+
+.navbar{
+    max-width: 1100px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+}
+
+.custom-brand {
+    color: $blanco;
+}
+.custom-nav{
+    max-width: 1100px;
+    margin: auto;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+}  
+.custom-nav .nav-link {
+    font-size: 18px;
+    color: $blanco;
+}

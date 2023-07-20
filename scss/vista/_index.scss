@@ -1,0 +1,30 @@
+/* Index */
+.centrado{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.si{
+    @extend .centrado;
+    height: 95vh;
+    width: 100%;
+    background-image: url(../img/wepik-export-20230531234629lezY.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+main{
+    h1{
+        font-family: 'Work Sans', sans-serif;
+        text-align: center;
+        color: $blanco;
+        font-size: 45px;
+    }
+    p{
+        text-align: center;
+        color: $blanco;
+        font-size: 40px;
+    }
+    
+} 

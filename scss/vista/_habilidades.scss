@@ -1,0 +1,136 @@
+/* Habilidades */
+h1{
+    text-align: center;
+    color: #353b48;
+}
+h3{
+    margin: 5px;
+    color: #353b48;
+}
+.skill{
+    width: 500px;
+    margin: 60px auto;
+    color: #fff;
+    padding: 20px;
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+    background-color: rgb(5, 131, 131);
+}
+.skill li{
+    margin: 20px 0;
+    padding: 10px;
+    list-style: none;
+}
+.bar{
+    background: #353b48;
+    display: block;
+    height: 20px;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.12), 0 10px 10px rgba(0, 0, 0, 0.24);
+    transition: all 0.3s cubic-bezier(.25, .8, .25, 1);
+}
+.bar:hover{
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+.bar span{
+    height: 20px;
+    float: left;
+    background: linear-gradient(135deg, rgb(0, 169, 236)0%,rgb(62, 218, 205)100%);
+}
+.html{
+    width: 80%;
+    animation: html 3s;
+}
+.css{
+    width: 70%;
+    animation: css 3s;
+}
+.git{
+    width: 40%;
+    animation: git 3s;
+}
+.bootstrap{
+    width: 30%;
+    animation: bootstrap 3s;
+}
+.responsabilidad{
+    width: 90%;
+    animation: responsabilidad 3s;
+}
+.tp-grupo{
+    width: 90%;
+    animation: tp-grupo 3s;
+}
+.adaptabilidad{
+    width: 70%;
+    animation: adaptabilidad 3s;
+}
+.r-problemas{
+    width: 80%;
+    animation: r-problemas 3s;
+}  
+@keyframes html{
+    0%{
+    width: 0%;
+    }
+    100%{
+    width: 80%;
+    }
+}
+@keyframes css{
+    0%{
+    width: 0%;
+    }
+    100%{
+    width: 70%;
+    }
+}
+@keyframes git{
+    0%{
+    width: 0%;
+    }
+    100%{
+    width: 40%;
+    }
+}
+@keyframes bootstrap{
+    0%{
+    width: 0%;
+    }
+    100%{
+    width: 30%;
+    }
+}
+@keyframes responsabilidad{
+    0%{
+    width: 0%;
+    }
+    100%{
+    width: 90%;
+    }
+}
+@keyframes tp-grupo{
+    0%{
+    width: 0%;
+    }
+    100%{
+    width: 90%;
+    }
+}
+@keyframes adaptabilidad{
+    0%{
+    width: 0%;
+    }
+    100%{
+    width: 70%;
+    }
+}
+@keyframes r-problemas{
+    0%{
+    width: 0%;
+    }
+    100%{
+    width: 80%;
+    }
+}
