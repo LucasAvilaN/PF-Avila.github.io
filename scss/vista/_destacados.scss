@@ -52,12 +52,12 @@ main{
 
 .carta .contenido-card h3{
     margin-bottom: 15px;
-    color: #000000;
+    color: white
 }
 
 .carta .contenido-card p{
     line-height: 1.8;
-    color: #000000;
+    color: white;
     font-size: 14px;
     margin-bottom: 5px;
 }
@@ -67,14 +67,14 @@ main{
     padding: 10px;
     margin-top: 10px;
     text-decoration: none;
-    color: #440daa;
-    border: 1px solid #2d1ead;
+    color: white ; 
+    border: 1px solid white;
     border-radius: 4px;
     transition: all 400ms ease;
     margin-bottom: 5px;
-}
+} 
 
 .carta .contenido-card a:hover{
-    background: #2d1ead;
-    color: $blanco;
+    background: white;
+    color: blue;
 }

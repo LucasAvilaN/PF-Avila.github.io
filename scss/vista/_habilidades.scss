@@ -7,6 +7,9 @@ h3{
     margin: 5px;
     color: #353b48;
 }
+.sk-obje{
+    display: flex;
+}
 .skill{
     width: 500px;
     margin: 60px auto;
@@ -14,6 +17,20 @@ h3{
     padding: 20px;
     box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
     background-color: rgb(5, 131, 131);
+}
+.skill-mns{
+    color: #fff;
+    width: 80%;
+    margin: 20px;
+    font-size: 20px;
+    background-color: rgb(5, 131, 131);
+}
+.skill-mns h2{
+    font-size: 25px;
+}
+.skill p{
+    font-size: 25px;
+
 }
 .skill li{
     margin: 20px 0;
@@ -53,6 +70,10 @@ h3{
 .bootstrap{
     width: 30%;
     animation: bootstrap 3s;
+}
+.javascript{
+    width: 20%;
+    animation: javascript 3s;
 }
 .responsabilidad{
     width: 90%;
@@ -100,6 +121,14 @@ h3{
     }
     100%{
     width: 30%;
+    }
+}
+@keyframes javascript{
+    0%{
+    width: 0%;
+    }
+    100%{
+    width: 20%;
     }
 }
 @keyframes responsabilidad{

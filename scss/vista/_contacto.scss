@@ -3,11 +3,15 @@ $backgroundStyles: (
   primario: #155670,
   secundario: rgb(197, 60, 25),
 );
+.form_register{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
 .form-register {
     width: 600px;
     background: map-get($backgroundStyles, primario);
     padding: 30px;
-    margin: auto;
+    margin: 200px;
     margin-top: 100px;
     margin-bottom: 100px;
     border-radius: 4px;
@@ -34,10 +38,10 @@ $backgroundStyles: (
 }
 .mnsj-final{
     font-family: 'Heebo', sans-serif;
-    width: 800px;
+    width: 600px;
     justify-content: center;
     text-align: center;
-    font-size: 30px;
+    font-size: 20px;
     color: $blanco;
     background: map-get($backgroundStyles, primario);
     padding: 30px;
